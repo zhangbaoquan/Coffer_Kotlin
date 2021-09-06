@@ -9,7 +9,7 @@ android {
     buildToolsVersion "28.0.3"
     defaultConfig {
         applicationId "com.kc.coffer"
-        minSdkVersion 19
+        minSdkVersion 26
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -53,6 +53,11 @@ android {
             dirs 'libs' //this way we can find the .aar file in libs folder
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    dynamicFeatures = [':dynamic_feature1', ':dynamicfeature']
 }
 
 static def releaseTime(){

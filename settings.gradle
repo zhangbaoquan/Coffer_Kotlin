@@ -1,1 +1,3 @@
 include ':app'
+include ':dynamic_feature1'
+include ':dynamicfeature'
