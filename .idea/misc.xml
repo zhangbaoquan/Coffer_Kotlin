@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../../../../layout/custom_preview.xml" value="0.31851851851851853" />
+        <entry key="app/src/main/res/drawable/bg_gradient.xml" value="0.4203125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
         <entry key="dynamic_feature1/src/main/res/layout-w1240dp/activity_login2.xml" value="0.180078125" />
         <entry key="dynamic_feature1/src/main/res/layout/activity_login2.xml" value="0.21693840579710144" />

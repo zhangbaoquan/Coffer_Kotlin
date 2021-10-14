@@ -1,15 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btn"
-        android:text="跳转"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-</RelativeLayout>
+        <Button
+            android:id="@+id/b0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="加载插件"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:text="java 综合"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:text="android 综合"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:text="崩溃日志采集"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:text="网络框架学习"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:text="Jetpack 组件练习"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="scheme / push 协议"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="测试新功能业务"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</ScrollView>
