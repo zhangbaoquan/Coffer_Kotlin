@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/b0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="绘制练习综合"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="绘制练习" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/blue"
+            android:elevation="3dp"
+            android:text="View的滑动和绘制"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/blue"
+            android:layout_marginLeft="10dp"
+            android:elevation="3dp"
+            android:text="弹性RecycleView实现"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="瀑布流ViewGroup"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/b5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="画廊效果"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/b6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="左右弹性阻尼的View"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/b7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="ListView"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/b8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="多布局样式"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/b9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="Banner 系列"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/b10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="滑动登录验证"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/b11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="滑动冲突处理"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/b12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="绘制练习2"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</ScrollView>

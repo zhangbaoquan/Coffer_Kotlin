@@ -8,6 +8,7 @@ import android.os.Handler
 import android.os.Message
 import android.widget.Button
 import android.widget.Toast
+import com.kc.coffer.androidDemo.AndroidMainActivity
 import com.kc.coffer.util.CofferLog
 import com.tencent.mmkv.MMKV
 import java.lang.Exception
@@ -26,7 +27,7 @@ class MainActivity : BaseActivity(){
         }
         // android 综合
         findViewById<Button>(R.id.b5).setOnClickListener {
-
+            startActivity(Intent(this@MainActivity,AndroidMainActivity::class.java))
         }
         // 网络框架学习
         findViewById<Button>(R.id.b8).setOnClickListener {

@@ -24,6 +24,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".androidDemo.AndroidMainActivity"/>
+        <activity android:name=".androidDemo.AnimDemoMainActivity"/>
+        <activity android:name=".androidDemo.CustomViewMainActivity"/>
+        <activity android:name=".androidDemo.animdemo.PropertyAnimActivity"/>
+        <activity android:name=".androidDemo.animdemo.FrameAnimActivity"/>
+        <activity android:name=".androidDemo.animdemo.TweenAnimActivity"/>
+        <activity android:name=".androidDemo.animdemo.AnimTestActivity"/>
     </application>
 
 </manifest>

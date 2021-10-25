@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t1"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:elevation="3dp"
+            android:text="动画系列"
+            android:textColor="@color/white" />
+
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:text="自定义View系列"
+            android:textColor="@color/white" />
+
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:text="消息机制"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:text="Bottom_Sheet_Behavior"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:text="事件分发"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:text="ARouter 原理"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:text="DRouter 原理"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dk_dp_10"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:text="登录"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+</ScrollView>
