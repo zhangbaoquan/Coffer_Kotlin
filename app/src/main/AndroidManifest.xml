@@ -31,6 +31,20 @@
         <activity android:name=".androidDemo.animdemo.FrameAnimActivity"/>
         <activity android:name=".androidDemo.animdemo.TweenAnimActivity"/>
         <activity android:name=".androidDemo.animdemo.AnimTestActivity"/>
+        <activity android:name=".androidDemo.customview.ArrangeViewActivity"/>
+        <activity android:name=".androidDemo.customview.BannerActivity"/>
+        <activity android:name=".androidDemo.customview.DampViewActivity"/>
+        <activity android:name=".androidDemo.customview.DrawActivity"/>
+        <activity android:name=".androidDemo.customview.DrawViewActivity"/>
+        <activity android:name=".androidDemo.customview.DrawViewActivity2"/>
+        <activity android:name=".androidDemo.customview.FlexibleViewActivity"/>
+        <activity android:name=".androidDemo.customview.GalleryActivity"/>
+        <activity android:name=".androidDemo.customview.ListViewActivity"/>
+        <activity android:name=".androidDemo.customview.MutiTypeActivity"/>
+        <activity android:name=".androidDemo.customview.ScrollActivity2"/>
+        <activity android:name=".androidDemo.customview.ScrollLoginActivity"/>
+        <activity android:name=".androidDemo.customview.ScrollContainerActivity"/>
+
     </application>
 
 </manifest>

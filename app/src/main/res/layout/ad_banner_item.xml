@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="14.83dp"
+    android:paddingRight="15dp">
+
+    <ImageView
+        android:id="@+id/iv_ad"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="9.83dp"
+        android:src="@drawable/icon_img_default" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_ad"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/iv_ad"
+        android:includeFontPadding="false"
+        android:textColor="@color/item_h1_text_color"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/tv_ad_tag"
+        android:layout_width="26dp"
+        android:layout_height="14dp"
+        android:layout_alignTop="@id/tv_title"
+        android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@id/tv_title"
+        android:background="@drawable/ic_ad_no_close_round" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@id/iv_ad"
+        android:includeFontPadding="false"
+        android:textColor="@color/item_h3_text_color"
+        android:textSize="11dp" />
+
+    <TextView
+        android:id="@+id/tv_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:text="点我啦"
+        android:textColor="@color/item_h2_text_color"
+        android:textSize="12dp" />
+</RelativeLayout>

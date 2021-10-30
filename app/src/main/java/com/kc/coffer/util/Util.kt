@@ -3,6 +3,9 @@ package com.kc.coffer.util
 import android.app.Activity
 import android.content.Context
 import android.content.res.Resources
+import android.graphics.Bitmap
+import android.graphics.drawable.BitmapDrawable
+import android.graphics.drawable.Drawable
 import android.util.TypedValue
 import android.view.View
 import android.view.WindowManager
@@ -24,6 +27,13 @@ fun dipToPixel(context: Context, dip: Float): Int {
     ) + 1).toInt()
 }
 
+fun dipToPixel2(context: Context, dip: Float): Float {
+    return (TypedValue.applyDimension(
+        TypedValue.COMPLEX_UNIT_DIP,
+        dip,
+        context.resources.displayMetrics
+    ) + 1)
+}
 
 fun dipToPixel(r: Resources, dip: Int): Int {
     return (TypedValue.applyDimension(
@@ -70,6 +80,11 @@ fun setPauseOnScrollListener(view: RecyclerView,customScrollListener: RecyclerVi
     }
     var pauseOnScrollListener: PauseOnScrollListener
 //    val level =
+}
+
+fun drawableToBitmap(drawable: Drawable): Bitmap{
+    val bd = drawable as BitmapDrawable
+    return bd.bitmap
 }
 
 

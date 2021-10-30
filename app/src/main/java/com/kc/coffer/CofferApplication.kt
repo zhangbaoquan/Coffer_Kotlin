@@ -34,6 +34,7 @@ open class CofferApplication : Application() {
     override fun onCreate() {
         super.onCreate()
         install(this)
+        initImageLoader(this)
         initLog()
         MMKV.initialize(this)
         // 初始化ARouter

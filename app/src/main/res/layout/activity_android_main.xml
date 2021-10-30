@@ -12,9 +12,10 @@
         <TextView
             android:id="@+id/t1"
             android:textSize="15sp"
+            android:text="haha"
             android:gravity="center"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="30dp"/>
 
         <Button
             android:id="@+id/b1"
